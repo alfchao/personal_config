@@ -23,7 +23,7 @@ set statusline=%F%r\ [HEX=%B][%l,%v,%P]\ %{strftime(\"%H:%M\")}
 
 "显示行号
 "等同于 set number
-set nu 
+set nu
 
 "使用快捷键简化是否粘贴模式
 "map <F3>:set paste<CR>
@@ -35,10 +35,10 @@ set cursorline "等同于 set cul
 "突出显示当前列
 set cursorcolumn "等同于 set cuc
 
-"共享剪贴板  
-"set clipboard+=unnamed 
+"共享剪贴板
+"set clipboard+=unnamed
 
-"从不备份  
+"从不备份
 set nobackup
 
 "自动保存
@@ -50,13 +50,13 @@ set autowrite
 "set guioptions-=m
 
 "高亮显示所有搜索到的内容.后面用map映射快捷键来方便关闭当前搜索的高亮.
-"set hlsearch
+set hlsearch
 
 "光标立刻跳转到搜索到内容
-"set incsearch
+set incsearch
 
 "搜索到最后匹配的位置后,再次搜索不回到第一个匹配处
-"set nowrapscan
+set nowrapscan
 
 "去掉输入错误时的提示声音
 set noeb
@@ -126,10 +126,9 @@ set laststatus=2
 
 
 
-"设置背景主题 
+"设置背景主题
 "color asmanian2
 "设置字体
 "set guifont=Courier_New:h10:cANSI
 "设置颜色主题,适用于黑色背景.
-colorscheme slate
-
+" colorscheme slate
